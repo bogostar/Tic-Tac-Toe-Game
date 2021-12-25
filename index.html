@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tic Tack Toe Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="js.js"></script>
+</head>
+
+<body>
+
+    <h1>Tic Tac Toe Game</h1>
+    <button onclick="newGame()">New Game</button>
+    <button onClick="window.location.href=window.location.href">End Game</button>
+    <h3 id="status"></h3>
+    <div class="board">
+        <div class="cell" id="0" onclick="playerMove(0) "></div>
+        <div class="cell" id="1" onclick="playerMove(1) "></div>
+        <div class="cell" id="2" onclick="playerMove(2) "></div>
+        <div class="cell" id="3" onclick="playerMove(3) "></div>
+        <div class="cell" id="4" onclick="playerMove(4) "></div>
+        <div class="cell" id="5" onclick="playerMove(5) "></div>
+        <div class="cell" id="6" onclick="playerMove(6) "></div>
+        <div class="cell" id="7" onclick="playerMove(7) "></div>
+        <div class="cell" id="8" onclick="playerMove(8) "></div>
+    </div>
+    <div>
+        <h3>TIME LEFT : <strong id="timer">30</strong><strong>'s</strong></h3>
+        <button onclick="Note()">IMPORTANT NOTE</button>
+    </div>
+
+</body>
+
+</html>
